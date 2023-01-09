@@ -46,7 +46,7 @@ end
 
 # happy_new_year
 
-# reverse_string("hello")
+reverse_string("hello")
 
 # fizzbuzz_printer
 

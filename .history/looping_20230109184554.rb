@@ -26,9 +26,14 @@ end
 def fizzbuzz_printer
   # your code here
   (1..100).each do |num|
-    puts fizzbuzz(num)
+    message = case
+              when num % 5 == 0 then "Buzz"
+              when num % 3 == 0 then "Fizz"
+              else num
+              end
+     puts message
+
   end
-end
 
 def reverse_string(str)
   # your code here
@@ -40,13 +45,9 @@ def reverse_string(str)
       counter -= 1
     end
     puts reversed_str
-    return reversed_str
   end
 end
 
-# happy_new_year
+puts happy_new_year
 
-# reverse_string("hello")
-
-# fizzbuzz_printer
-
+puts reverse_string("Annie")

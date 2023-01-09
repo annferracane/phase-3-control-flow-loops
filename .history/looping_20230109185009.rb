@@ -40,13 +40,8 @@ def reverse_string(str)
       counter -= 1
     end
     puts reversed_str
-    return reversed_str
   end
 end
 
-# happy_new_year
-
-# reverse_string("hello")
-
-# fizzbuzz_printer
+$
 
